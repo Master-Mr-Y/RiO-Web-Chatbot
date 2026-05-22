@@ -4,11 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # .env file load pannum
-load_dotenv()
-
-# API key get pannum
-key = os.getenv("chat_key")
-
+key ="k-or-v1-5ba4888e1de3bb51730005496cdd583fe012ed61c5df32c0e419d2244b9fe628"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
